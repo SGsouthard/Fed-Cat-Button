@@ -1,17 +1,13 @@
 let feedButton = document.getElementById("feed-button");
 let timeBlock = document.getElementById("time-block");
+//an empty variable to store the last time the cat was fed
+let lastFed = ""
 //Time Section
-let currentDate = new Date();
-let timeNow = + currentDate.getHours() + ":"
-    + currentDate.getMinutes() + ":"
-    + currentDate.getSeconds()
-// function getTime() {
 
-// }
+
 
 feedButton.onclick = function() {
-    console.log(timeNow);
-    timeBlock.textContent = Date();
+    console.log("beep");
 }
 
-console.log("JS is connected and online!")
+console.log("JS is connected and online!");
