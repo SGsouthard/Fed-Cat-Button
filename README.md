@@ -9,3 +9,4 @@ create an app that lets me and my roommates track when the cat was last fed
 
 Potential Solutions to storing Time Stamps
 -cookies?
+-Local Storage
