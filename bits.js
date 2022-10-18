@@ -42,6 +42,7 @@ function updateTimeStamp() {
 function feedAnimation() {
     catImage.src = "assets/cat-eat.gif"
     bowlImage.src = "assets/bowl-eat.gif"
+    setTimeout(staticAnimation, 5000)
 }
 
 function staticAnimation() {
