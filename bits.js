@@ -1,7 +1,9 @@
 let feedButton = document.getElementById("feed-button");
 let deleteButton = document.getElementById("delete-data");
 let timeBlock = document.getElementById("time-block");
-let catSpan = document.getElementById("cat-span")
+let catSpan = document.getElementById("cat-span");
+let catImage = document.getElementById("cat-static");
+let bowlImage = document.getElementById("bowl-static");
 
 
 
@@ -20,6 +22,8 @@ feedButton.onclick = function() {
     */
     let timeStamp = localStorage.getItem('timeFed');
     timeBlock.textContent = timeStamp;
+    // changing the animation of the cat and bowl when the button is hit
+    feedAnimation();
 }
 
 //delete button for development purposes only
@@ -33,6 +37,16 @@ function updateTimeStamp() {
     let timeTime = new Date();
     let timeString = timeTime.toLocaleTimeString();
     localStorage.setItem('timeFed',timeString);
+}
+
+function feedAnimation() {
+    catImage.src = "assets/cat-eat.gif"
+    bowlImage.src = "assets/bowl-eat.gif"
+}
+
+function staticAnimation() {
+    catImage.src = "assets/cat-static.gif"
+    bowlImage.src = "assets/bowl-static.gif"
 }
 
 console.log("JS is connected and online!");

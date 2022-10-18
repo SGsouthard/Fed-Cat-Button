@@ -10,3 +10,9 @@ create an app that lets me and my roommates track when the cat was last fed
 Potential Solutions to storing Time Stamps
 -cookies?
 -Local Storage
+--Local Storage is the final choice
+
+Things to add:
+-reset button to reset the time stamp
+-form to input time manually
+-form to input cat name/select single or multiple cats
