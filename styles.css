@@ -1,7 +1,7 @@
 body {
     background-image: url(assets/dot-grid-texture.png);
     background-repeat: repeat;
-    background-size: 40%;
+    background-size: 400px;
     font-family: 'Indie Flower', cursive;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,14 @@ p {
 
 button {
     margin-top: 2em;
+    border-radius: 50%;
+    border-color: black;
+    background-color: none;
+    width: 3em;
+    height: 3em;
     font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 

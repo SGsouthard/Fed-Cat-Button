@@ -30,6 +30,7 @@ feedButton.onclick = function() {
 // deleteButton.onclick = function() {
 //     localStorage.clear();
 //     timeBlock.textContent = "";
+//     console.log(localStorage);
 // }
 
 //function to update and store the Time Stamp in local storage
