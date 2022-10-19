@@ -46,6 +46,10 @@ button {
     align-items: center;
 }
 
+#time-block {
+    letter-spacing: .2em;
+}
+
 #images-button {
     margin: auto;
     display: flex;
