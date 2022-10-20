@@ -55,6 +55,17 @@ button {
     display: block;
 }
 
+.dropdown-content a:hover {
+    background-color: yellow;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbutton {
+    background-color: red;;
+}
 
 /* images */
 .gifs {
