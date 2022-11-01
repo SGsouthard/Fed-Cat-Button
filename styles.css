@@ -85,6 +85,11 @@ button {
     max-width: 30%;
 }
 
+#bowl-static:hover {
+    max-width: 35%;
+    cursor: grab;
+}
+
 /* divs */
 #text-block {
     margin: auto;
