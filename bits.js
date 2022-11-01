@@ -4,7 +4,7 @@ let timeBlock = document.getElementById("time-block");
 let catSpan = document.getElementById("cat-span");
 let catImage = document.getElementById("cat-static");
 let bowlImage = document.getElementById("bowl-static");
-
+let bowlButton = document.getElementById("bowl-static");
 
 
 //Local Storage variable to load on the main page
@@ -14,7 +14,7 @@ window.onload = function() {
     timeBlock.textContent = catFed
 }
 
-feedButton.onclick = function() {
+bowlButton.onclick = function() {
     updateTimeStamp();
     /*local storage variable so that the time can be updated
     *each time the button is clicked on the page AND in the
@@ -42,13 +42,13 @@ function updateTimeStamp() {
 
 function feedAnimation() {
     catImage.src = "assets/cat-eat.gif"
-    bowlImage.src = "assets/bowl-eat.gif"
+    bowlImage.src = "assets/bowl-eat-red.gif"
     setTimeout(staticAnimation, 5000)
 }
 
 function staticAnimation() {
     catImage.src = "assets/cat-static.gif"
-    bowlImage.src = "assets/bowl-static.gif"
+    bowlImage.src = "assets/bowl-static-red.gif"
 }
 
 console.log("JS is connected and online!");
